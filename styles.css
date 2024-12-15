@@ -1,0 +1,257 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('img/maxresdefault.jpg') no-repeat center center fixed ;
+    background-size: cover;
+    color: white;
+}
+
+/* Estilos do header */
+header ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(0, 0, 0, 0.5); /* Fundo semi-transparente para o menu */
+}
+
+header ul li {
+    cursor: pointer;
+    padding: 1rem;
+}
+
+header ul li a {
+    text-decoration: none; /* Remove o sublinhado dos links */
+    color: white; /* Define a cor do texto */
+}
+
+header ul li a:hover {
+    color: #ff6347; /* Muda a cor ao passar o mouse */
+}
+
+/* Estilo da seção principal */
+.hero {
+    text-align: center;
+    color: white;
+    padding: 1rem 0;
+    background-color: rgba(0, 0, 0, 0.2); 
+}
+
+.hero h1 {
+    font-size: 3rem;
+}
+h2{
+    font-size: 3rem;
+}
+
+/* Estilos das seções */
+.section-title {
+    text-align: center;
+    margin: 2rem 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    box-shadow: 0 8px 8px black;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: rgba(255, 255, 255, 0.8); /* Fundo claro com transparência para destacar as informações */
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    width: 300px;
+    color: black;
+}
+
+/* Estilo do footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: relative;
+}
+.card {
+    background-color:rgb(144, 223, 168);
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card img {
+    width: 100%; /* Preencherá 100% da largura do card */
+    height: 300px; 
+    object-fit: cover; 
+    border-radius: 8px; 
+}
+.video{
+    
+    height: auto;
+    margin: 1rem;
+    padding: 1rem;
+    width: 750px;
+    margin:0 auto;
+    border-radius: 50px;
+    
+}
+/* Estilos gerais do corpo */
+body {
+    font-family: Arial, sans-serif; /* Define a fonte principal */
+    background-color: #f4f4f4; /* Cor de fundo da página */
+    margin: 0; /* Remove a margem padrão */
+    padding: 0; /* Remove o preenchimento padrão */
+}
+
+/* Estilos para a seção de contato */
+#contato {
+    max-width: 600px; /* Define a largura máxima do formulário */
+    margin: 50px auto; /* Centraliza o formulário na página */
+    padding: 20px; /* Adiciona preenchimento ao redor do formulário */
+    background-color: rgba(0, 0, 0, 0.8);
+    box-shadow: 0 0 10px rgba(231, 228, 228, 0.1); /* Adiciona uma sombra suave */
+    border-radius: 8px; /* Bordas arredondadas */
+}
+
+/* Estilos para o título do contato */
+.titulo-contato {
+    text-align: center; /* Centraliza o texto */
+    color: #faf4f4; /* Cor do texto */
+    margin-bottom: 20px; /* Espaço abaixo do título */
+}
+
+/* Estilos para os grupos do formulário */
+.contato-form .grupo-formulario {
+    margin-bottom: 15px; /* Espaço abaixo de cada grupo de formulário */
+}
+
+/* Estilos para os rótulos (labels) */
+.contato-form label {
+    display: block; /* Faz os rótulos ocuparem a linha inteira */
+    margin-bottom: 5px; /* Espaço abaixo dos rótulos */
+    color: #555; /* Cor dos rótulos */
+}
+
+/* Estilos para os inputs e textarea */
+.contato-form input, .contato-form textarea {
+    width: 100%; /* Ocupa 100% da largura do contêiner */
+    padding: 10px; /* Espaço interno */
+    border: 1px solid #ddd; /* Borda cinza clara */
+    border-radius: 4px; /* Bordas arredondadas */
+    box-sizing: border-box; /* Inclui o preenchimento e bordas no tamanho total */
+}
+
+/* Estilos para inputs e textarea em foco */
+.contato-form input:focus, .contato-form textarea:focus {
+    border-color: #007bff; /* Cor da borda ao focar no campo */
+    outline: none; /* Remove o contorno padrão ao focar */
+}
+
+/* Estilos específicos para o textarea */
+.contato-form textarea {
+    resize: vertical; /* Permite redimensionar apenas verticalmente */
+    height: 100px; /* Altura padrão do textarea */
+}
+
+/* Estilos para o botão de envio */
+.contato-form button {
+    display: block; /* Ocupa a linha inteira */
+    width: 100%; /* Largura total do contêiner */
+    padding: 10px; /* Espaço interno */
+    background-color: #007bff; /* Cor de fundo azul */
+    color: #fff; /* Cor do texto branco */
+    border: none; /* Remove a borda padrão */
+    border-radius: 4px; /* Bordas arredondadas */
+    cursor: pointer; /* Cursor de mão ao passar sobre o botão */
+}
+
+/* Estilos para o botão de envio ao passar o cursor */
+.contato-form button:hover {
+    background-color: #0056b3; /* Cor de fundo ao passar o cursor */
+}
+
+/* Animação para fade-in */
+.fade-in {
+    animation: fadeIn 1s ease-in-out; /* Aplica a animação de fade-in */
+}
+
+/* Definição da animação fade-in */
+@keyframes fadeIn {
+    from {
+        opacity: 0; /* Começa com opacidade 0 (invisível) */
+    }
+    to {
+        opacity: 1; /* Termina com opacidade 1 (visível) */
+    }
+}
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para a seção de FAQ */
+#faq {
+    max-width: 800px; /* Largura máxima da seção */
+    margin: 50px auto; /* Centraliza a seção na página */
+    padding: 20px; /* Adiciona preenchimento ao redor da seção */
+    background-color: rgba(0, 0, 0, 0.8);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra suave */
+    border-radius: 8px; /* Bordas arredondadas */
+}
+
+/* Estilos para o título da seção */
+#faq h2 {
+    text-align: center; /* Centraliza o texto */
+    color: #fffcfc; /* Cor do texto */
+    margin-bottom: 20px; /* Espaço abaixo do título */
+}
+
+/* Estilos para os subtítulos das perguntas */
+#faq h3 {
+    color: #007bff; /* Cor azul para os subtítulos */
+    margin-top: 20px; /* Espaço acima dos subtítulos */
+    margin-bottom: 10px; /* Espaço abaixo dos subtítulos */
+}
+
+/* Estilos para os parágrafos das respostas */
+#faq p {
+    color: #ffe6e6; /* Cor do texto */
+    line-height: 1.6; /* Altura da linha para melhor leitura */
+    margin-bottom: 10px; /* Espaço abaixo dos parágrafos */
+}
+
+/* Estilos para o efeito de hover nas perguntas */
+#faq h3:hover {
+    color: #0056b3; /* Muda a cor ao passar o cursor */
+    cursor: pointer; /* Muda o cursor para indicar interatividade */
+}
+
+/* Estilos para o efeito de fade-in */
+.fade-in {
+    animation: fadeIn 1s ease-in-out; /* Aplica a animação de fade-in */
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0; /* Começa com opacidade 0 (invisível) */
+    }
+    to {
+        opacity: 1; /* Termina com opacidade 1 (visível) */
+    }
+}
+
